@@ -111,10 +111,18 @@ const galleryImages = [
        
     },
     {
+        src: 'images/image30.jpg',
+       
+    },
+    {
+        src: 'images/image29.jpg',
+       
+    },
+    {
         src: 'images/image28.jpg',
        
     },
-    
+ 
     
 
 
