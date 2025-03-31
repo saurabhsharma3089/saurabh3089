@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            
+            
+            <div class="logo-image">
+                <img  class="profile-pic" src="images/image3.jpg" alt="Profile Photo">
+                Saurabh Sharma
+                
+            </div>
+            <ul class="nav-links">
+                <button id="menu-close-button" class="fas fa-times"></button>
+               
+                    
+                
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="#activity"><i class="fas fa-calendar-alt"></i> Activity</a></li>
+                <button id="volumeControl"><i class="fas fa-volume-up"></i></button>
+                
+          <!-- Hidden background music -->
+          <audio id="backgroundMusic" autoplay loop>
+            <source src="audio1.mp3" type="audio/mpeg">
+    
+        </audio>
+    <!-- Single Volume Button -->
+     
+ 
+           
+
+            </ul>
+
+            
+        </div>
+       
+        <div >
+            <button id="menu-open-button" class="fas fa-bars"></button>
+       
+       
+
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Profile</h1>
+            <p>Explore my world through images and activities</p>
+        </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm a passionate individual who loves to capture moments and share experiences. This profile showcases my journey through images and activities.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/Saurabhsharma3089"><i class="fab fa-facebook"></i></a>
+                        <a href="https://t.snapchat.com/KB5feTd3"><i class="fab fa-snapchat"></i></a>
+                        <a href="https://www.instagram.com/saurabh_sharma3089?igsh=Y2ZjZTRxOGJ5ZHd6&utm_source=qr "><i class="fab fa-instagram"></i></a>
+                        <a href="https://alvo.chat/5Nux"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://x.com/saurabhjannawat?s=21"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/about.PNG" alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">My Gallery</h2>
+            <div class="gallery-grid">
+
+                <!-- Gallery items will be added dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+    
+    <section id="project" class="projects">
+        <div class="container">
+            <h2 class="section-title">My projects</h2>
+            <div class="project-container" id="projects">
+           
+            </div>
+    </section>
+
+    <section id="activity" class="activity">
+        <div class="container">
+            <h2 class="section-title">My Activity</h2>
+            <div class="activity-timeline">
+                <!-- Activity items will be added dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+  
+ 
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Profile. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
