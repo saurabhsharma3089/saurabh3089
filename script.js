@@ -122,7 +122,14 @@ const galleryImages = [
         src: 'images/image28.jpg',
        
     },
- 
+    {
+        src: 'images/image32.jpg',
+       
+    },
+    {
+        src: 'images/image33.jpg',
+       
+    },
     
 
 
@@ -154,11 +161,7 @@ const activities = [
         date: 'March 5, 2024',
         description: 'Modeling for a local fashion brand.'
     },
-    {
-        title: 'Singer🎸',
-        date: 'February 28, 2024',
-        description: 'A singer is a person who uses their voice to produce music, typically performing songs in various styles and genres'
-    }
+ 
 ];
 
 

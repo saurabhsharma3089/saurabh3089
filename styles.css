@@ -243,7 +243,7 @@ section .section-title::after {
 }
 
 .gallery-item img {
-    width: 100%;
+    width: 60%;
     height: 250px;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -351,6 +351,16 @@ footer {
     color: white;
     text-align: center;
     padding: 2rem 0;
+}
+footer a{
+    color: white;
+    display: inline;
+    padding-left: 0.60rem;
+}
+footer a:hover{
+    color: red;
+
+
 }
 
 
