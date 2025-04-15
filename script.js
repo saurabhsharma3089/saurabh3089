@@ -184,23 +184,23 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 
 
 // Function to populate gallery
-function populateGallery() {
-    const galleryGrid = document.querySelector('.gallery-grid');
-    
-    galleryImages.forEach(image => {
-        const galleryItem = document.createElement('div');
-        galleryItem.className = 'gallery-item';
+    function populateGallery() {
+        const galleryGrid = document.querySelector('.gallery-grid');
         
-        galleryItem.innerHTML = `
-            <img src="${image.src}" alt="${image.title}">
-            <div class="gallery-item-info">
+        galleryImages.forEach(image => {
+            const galleryItem = document.createElement('div');
+            galleryItem.className = 'gallery-item';
+            
+            galleryItem.innerHTML = `
+                <img src="${image.src}" alt="${image.title}">
+                <div class="gallery-item-info">
 
-            </div>
-        `;
-        
-        galleryGrid.appendChild(galleryItem);
-    });
-}
+                </div>
+            `;
+            
+            galleryGrid.appendChild(galleryItem);
+        });
+    }
 
 // Function to populate activity timeline
 function populateActivity() {

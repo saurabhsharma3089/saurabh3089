@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
     
 }
 
@@ -350,35 +351,6 @@ color: #3498db;
     
 }    */
 
-.video-item{
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    display: flex;
-    justify-content: space-around;
-}
-
-video{
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow: inset;
-}
-
-.container h2{
-    text-align: center;
-    margin-bottom: 50px;
-
-}
-
-.video-container video{
-    width: 150px;
-    height: auto;
-    /* height: 100px; */
-
-}
-
 
 /* Footer */
 footer {
@@ -636,16 +608,6 @@ footer a:hover{
         object-fit: cover;
         transition: transform 0.3s ease;
     }
-    .video-container video{
-        width: 150px;
-        height: auto;
-    }
-    .video-container{
-        width: 100%;
-    }
-    .container{
-        width: 100%;
-    }
-    
+
     
 }
