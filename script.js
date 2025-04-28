@@ -140,7 +140,8 @@ const galleryImages = [
 const projects = [
     { image: "coffee.jpg", link: "https://coffeeprojectbysaurabh.netlify.app/", name: " Project 1" },
     { image: "amazonclone.jpg", link: "https://amazonclonebysaurabhsharma.netlify.app/", name: "Project 2" },
-    { image: "profile.jpg", link: "https://saurabh3089.netlify.app/", name: "Project 3" }
+    { image: "profile.jpg", link: "https://saurabh3089.netlify.app/", name: "Project 3" },
+    { image: "travels.jpg", link: "https://travelsweb-by-saurabh.netlify.app/", name: "Project 4" }
 ];
 
 
